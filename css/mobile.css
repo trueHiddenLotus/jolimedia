@@ -16,6 +16,29 @@
   margin-bottom: 0;
 }
 
+#clients .items {
+  display: block;
+
+  padding: 1rem;
+}
+
+/* Align icon to left */
+#clients .items .icon {
+  display: flex;
+  align-self: center;
+  flex: 1;
+}
+
+/* Position Icon */
+#clients .items .icon i {
+  align-self: center;
+  display: inline;
+  margin-bottom: 0;
+  padding-left: 77px;
+  padding-right: 77px;
+  text-align: center;
+}
+
 /* Smartphones */
 @media (max-width: 500px) {
   #navbar {

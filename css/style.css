@@ -166,7 +166,7 @@ p {
 /* Showcase */
 #showcase {
   background: #333 url("../img/joli.jpg") no-repeat center center/cover;
-  background-size: 1500px 740px;
+  background-size: 90rem 40rem;
   height: 100vh;
   color: #fff;
 }
@@ -194,7 +194,7 @@ p {
 
 /* Section: What We Do */
 #what {
-  background: #444;
+  background: rgb(60, 60, 60);
   color: white;
 }
 
@@ -203,7 +203,7 @@ p {
   color: white;
 }
 
-/* #what .items .item {
+#what .items .item {
   flex: 1;
   text-align: center;
   padding: 1rem;
@@ -213,7 +213,7 @@ p {
   padding: 1rem;
   border-radius: 50%;
   margin-bottom: 1rem;
-} */
+}
 
 /* Section: Who We Are */
 #who {
@@ -227,18 +227,34 @@ p {
 #who .who-img {
   background: url("../img/PicsArt_01-25-10.08.15.jpg") no-repeat center
     center/cover;
-  background-size: 750px 500px;
+  background-size: 49rem 18rem;
 }
 
 /* Clients */
+#clients {
+  background: rgb(60, 60, 60);
+  color: white;
+}
 #clients .items {
   display: flex;
 }
 
-#clients .items img {
-  display: block;
-  margin: auto;
-  width: 60%;
+#clients .items .icon {
+  flex: 1;
+  align-items: center;
+  align-self: center;
+}
+
+#clients .items .icon i {
+  background: #37d8f0;
+  padding: 1rem;
+  border-radius: 5%;
+  margin: 1rem;
+  align-self: center;
+}
+
+#clients .items .icon i.fab {
+  size: 80px 80px;
 }
 
 /* Section: Contact */
