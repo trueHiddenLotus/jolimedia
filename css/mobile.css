@@ -97,7 +97,7 @@
   }
 }
 
-@media (max-height: 500px) {
+@media (max-height: 600px) {
   #showcase .showcase-content {
     margin-top: 2rem;
     top: 145;
