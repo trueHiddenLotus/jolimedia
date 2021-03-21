@@ -54,7 +54,10 @@
   #navbar ul {
     padding: 0.5rem;
   }
-
+  #showcase {
+    background: #333 url("../img/joli.jpg") no-repeat center center/cover;
+    background-size: 27rem 42rem;
+  }
   #showcase .showcase-content {
     padding-top: 295px;
     top: 110px;
